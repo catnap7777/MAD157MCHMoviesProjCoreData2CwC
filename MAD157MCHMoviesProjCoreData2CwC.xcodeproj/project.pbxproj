@@ -31,6 +31,7 @@
 		3A518E2225388C140060BCC7 /* MyMovieListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A518E2125388C140060BCC7 /* MyMovieListVC.swift */; };
 		3A518E2425388C4C0060BCC7 /* MyMoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A518E2325388C4C0060BCC7 /* MyMoviesTableViewCell.swift */; };
 		3A518E2825388CC90060BCC7 /* MyMovieDeleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A518E2725388CC90060BCC7 /* MyMovieDeleteVC.swift */; };
+		3A518E2C2538949C0060BCC7 /* MyMovieTable+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A518E2A2538949C0060BCC7 /* MyMovieTable+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		3A518E2125388C140060BCC7 /* MyMovieListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMovieListVC.swift; sourceTree = "<group>"; };
 		3A518E2325388C4C0060BCC7 /* MyMoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMoviesTableViewCell.swift; sourceTree = "<group>"; };
 		3A518E2725388CC90060BCC7 /* MyMovieDeleteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMovieDeleteVC.swift; sourceTree = "<group>"; };
+		3A518E2A2538949C0060BCC7 /* MyMovieTable+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyMovieTable+CoreDataClass.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		3A518DE9253888EE0060BCC7 /* MAD157MCHMoviesProjCoreData2CwC */ = {
 			isa = PBXGroup;
 			children = (
+				3A518E29253893B30060BCC7 /* Model */,
 				3A518DEA253888EE0060BCC7 /* AppDelegate.swift */,
 				3A518DEC253888EE0060BCC7 /* SceneDelegate.swift */,
 				3A518E1325388A7B0060BCC7 /* HomeVC.swift */,
@@ -119,6 +122,14 @@
 				3A518DF3253888EE0060BCC7 /* MAD157MCHMoviesProjCoreData2CwC.xcdatamodeld */,
 			);
 			path = MAD157MCHMoviesProjCoreData2CwC;
+			sourceTree = "<group>";
+		};
+		3A518E29253893B30060BCC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A518E2A2538949C0060BCC7 /* MyMovieTable+CoreDataClass.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 				3A518E2225388C140060BCC7 /* MyMovieListVC.swift in Sources */,
 				3A518E1825388ADC0060BCC7 /* MovieListVC.swift in Sources */,
 				3A518E2025388BD60060BCC7 /* OpenImdbVCViewController.swift in Sources */,
+				3A518E2C2538949C0060BCC7 /* MyMovieTable+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

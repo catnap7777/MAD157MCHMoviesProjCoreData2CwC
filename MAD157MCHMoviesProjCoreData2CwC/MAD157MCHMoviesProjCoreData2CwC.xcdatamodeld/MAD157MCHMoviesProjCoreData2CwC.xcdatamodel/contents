@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G2021" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="MyMovieTable" representedClassName="MyMovieTable" syncable="YES" codeGenerationType="class">
+    <entity name="MyMovieTable" representedClassName="MyMovieTable" syncable="YES" codeGenerationType="category">
         <attribute name="comments" optional="YES" attributeType="String"/>
         <attribute name="imdb" optional="YES" attributeType="String"/>
         <attribute name="name" optional="YES" attributeType="String"/>
